@@ -1,0 +1,230 @@
+/*  ########### CSS PARCHE ARCHITECTURE  ########### */
+
+.bg-black-top {
+  background-color: black;
+  height: 40vh;
+  position: relative;
+  display: none;
+
+}
+
+/* Diaporama */
+
+
+.carousel-top {
+  margin-top: 5%;
+}
+
+/* Fleches G et D  */
+.next-arrow,
+.prev-arrow {
+  height: 65px;
+  width: 65px;
+  padding: 10%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-image: url('http://localhost/FirstWordPress/wp-content/themes/FirstTheme/assets/svg/fleche-droite.svg');
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  z-index: 1;
+  filter: invert(1)
+}
+
+.next-arrow {
+  position: relative;
+  left: -154px;
+  top: -184px;
+}
+
+.prev-arrow {
+
+  position: relative;
+  left: 1378px;
+  top: -260px;
+  transform: rotate(0.5turn);
+
+
+}
+
+
+.info-carousel {
+
+  background: white;
+  display: flex;
+  bottom: 0;
+  right: 0;
+  width: 30vw;
+  left: 846px;
+  top: 785px;
+  padding: 0;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.info-carousel-titre,
+.info-carousel-ss-titre {
+  height: 80%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  justify-content: center;
+  color: black;
+
+
+  font-size: 30px;
+}
+
+.info-carousel-titre {
+  width: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.info-carousel-ss-titre {
+  border-left: solid 3px black;
+  font-weight: bolder;
+  width: 370px;
+
+
+
+}
+
+.info-carousel-ss-titre:hover {
+  color: black;
+  text-decoration: none;
+
+
+}
+
+.fleche-projet {
+  height: 40px;
+  width: 60px;
+  background-image: url('http://localhost/FirstWordPress/wp-content/themes/FirstTheme/assets/svg/fleche-droite.svg');
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+
+}
+
+
+/* Etude Archi pas chere a 150 euro mdr */
+
+.etude-archi {
+
+  display: flex;
+  padding-right: 0;
+  margin-top: 5%;
+
+}
+
+.etude-archi-g h1 {
+  color: black;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 45px;
+}
+
+.etude-archi-g p {
+  font-family: "Proxima Nova", sans-serif;
+  margin-top: 30px;
+  font-size: 20px;
+
+}
+
+.etude-archi-g {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+
+.etude-archi-d {
+
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.etude-archi-d ul {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: square outside none;
+  font-size: 25px;
+}
+
+.etude-archi-d p {
+  margin-top: 10;
+  margin-bottom: 1rem;
+  font-size: 15px;
+}
+
+
+/* Nghi et STEPHAN */
+.div-nghi-steph {
+  margin-top: 5%;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img-nghi {
+
+  width: 40%;
+}
+
+.repeater-nghi {
+
+  padding: 10%;
+  width: 100%;
+}
+
+/* Carousel bottom */
+.carousel-bot {
+  margin-top: 5%;
+}
+
+
+/* Tissus et artisanat  */
+.tissus-artisanat {
+  display: flex;
+  margin-top: 5%;
+}
+
+.tissus-d {
+  width: 50%;
+  padding: 5%;
+  padding-top: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tissus-d ul {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: square outside none;
+  font-size: 18px;
+}
+
+.tissu-g {
+  width: 40%;
+}
+
+.tissu-g h2 {
+
+  font-size: 20px;
+}
