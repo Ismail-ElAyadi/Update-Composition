@@ -1,0 +1,491 @@
+/*
+Theme Name: Isma
+Theme URI: //
+Author: Maxime BERNARD-JACQUET
+Author URI: //
+Description: Mon premier thème !
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+/*Ismail et ses aventures */
+
+/* PARTIE HEADER */
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/assets/font/proxima_ssv/Proxima Nova Alt Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.flex-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+#menu-main-menu {
+  background: white;
+  padding-left: 0;
+  font-family: "Proxima Nova", sans-serif;
+  width: auto;
+  margin: auto;
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+#menu-main-menu {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  list-style: none;
+}
+
+#menu-main-menu ul li {
+  list-style: none;
+  border: solid 1px red;
+}
+
+.btn-hamb {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.underline-home {
+  color: black;
+  text-decoration: none;
+  border-bottom: 3px solid black;
+  padding-bottom: 11px;
+}
+
+.underline a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 3px solid black;
+  padding-bottom: 15px;
+}
+
+.black-underline:hover {
+}
+
+.invert {
+  width: 20%;
+}
+
+#nav-items-desktop {
+}
+
+/* .top-home {
+  background-image: url("http://localhost/FirstWordPress/wp-content/themes/FirstTheme/assets/svg/home-minimal.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  width: 15px;
+  height: 15px;
+  border-bottom: solid 3px black;
+  padding-bottom: 50px;
+}
+ */
+.btn-wish {
+  width: 150px;
+}
+
+.margin {
+  margin-right: 10%;
+}
+
+.dropdown-menu {
+  right: 6%;
+  background-color: black;
+  color: white;
+}
+
+.menu-tablette {
+  display: none;
+}
+
+.nav-items-tablet {
+  display: none;
+}
+
+/* RESPONSIVE TABLETTE */
+
+/* @media screen and (min-width: 480px) and (max-width: 768px) {
+  header {
+    z-index: 0;
+  }
+
+  .nav-items-tablet {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    align-items: flex-end;
+  }
+
+  .burger-X {
+    padding: 0%;
+    display: flex;
+    justify-content: flex-end;
+
+    width: 101.56px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .item-tabl {
+    z-index: 3;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .menu-btn {
+    background-color: black;
+    color: white;
+  }
+
+  .menu-btn:focus {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 0px white;
+  }
+
+  .nav-items-desktop {
+    display: none;
+  }
+
+  .tamere {
+    background-image: rgba(255, 255, 255, 1);
+  }
+} */
+
+/* Fin partie header */
+
+#menu-item-4442 span {
+  color: white;
+  margin-right: 2%;
+}
+
+._mi,
+._after,
+.fa,
+.fa-list {
+  color: white;
+}
+
+#wpforms-submit-4431 {
+  border-radius: 10%;
+  border-left: 2px solid gray;
+  border-bottom: 2px solid gray;
+  background-color: black;
+  color: white;
+}
+
+/*modal*/
+
+/* Partie Footer */
+
+#top-foot-horaire {
+  background-color: black;
+  color: white;
+}
+
+#foot-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#tissus-contenair {
+  padding-top: 40px;
+  padding-right: 30%;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#rounded-img-contenair {
+  width: 150px;
+  height: 150px;
+}
+
+#rounded-img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#roundedcanape {
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#top-foot-horaire {
+  padding: 50px;
+}
+
+/* Footer bottom */
+
+#foot-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.icon-social {
+  padding: 10px;
+}
+
+.logo-social {
+  width: 15px;
+  height: auto;
+}
+.logo-social-fb {
+  width: 10px;
+  height: auto;
+}
+
+footer {
+  width: 90%;
+  margin: auto;
+}
+
+/* Fin de la partie footer
+
+/* Front page------------------------------------------------------------------------------------------------------------ */
+
+/* Partie bandeau */
+
+body {
+  width: 100%;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+#container-top {
+  display: flex;
+  width: 100%;
+}
+
+.image-bandeau {
+  width: 100%;
+}
+
+.sous-titre-left {
+  font-size: 24px;
+}
+
+.sous-titre-right {
+  font-size: 24px;
+}
+
+#left-text-bandeau {
+  position: relative;
+  width: 80%;
+  margin-left: 60px;
+  top: -50px;
+  z-index: 9999999;
+  background-color: white;
+  padding: 40px;
+}
+
+.hover-bandeau-left {
+  display: none;
+}
+
+#left-text-bandeau:hover .sous-titre-left {
+  display: none;
+}
+
+#left-text-bandeau:hover .hover-bandeau-left {
+  display: inline-block;
+}
+
+#right-text-bandeau {
+  position: relative;
+  width: 80%;
+  margin-left: 60px;
+  top: -50px;
+  z-index: 9999999;
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
+
+.sous-titre-hover {
+  font-size: 24px;
+}
+
+.paragraph-hover {
+  font-size: 16px;
+}
+
+.p-hover {
+  font-size: 18px;
+}
+
+.hover-bandeau-right {
+  display: none;
+}
+
+#right-text-bandeau:hover .sous-titre-right {
+  display: none;
+}
+
+#right-text-bandeau:hover .hover-bandeau-right {
+  display: inline-block;
+}
+
+#lien-bandeau-right {
+  color: white !important;
+}
+
+.icon-bandeau-right img {
+  filter: invert(100%);
+}
+
+#button-right {
+  background-color: white;
+  border-radius: 50%;
+  padding: 15px;
+  position: absolute;
+  right: -10px;
+  top: 50%;
+}
+
+#button-left {
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+  filter: invert(100%);
+  position: absolute;
+  right: -10px;
+  top: 50%;
+}
+
+.link-one-line {
+  display: flex !important;
+  flex-direction: row !important;
+}
+/* Fin bandeau */
+
+/* Partie intro front page */
+#intro-container {
+  display: flex;
+  width: 95%;
+}
+
+.image-intro {
+  width: 100%;
+  height: 100%;
+}
+
+#intro-first-text {
+  background-color: black;
+  color: white;
+  width: 80%;
+  padding-left: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  font-size: 27px;
+}
+
+#intro-second-text {
+  width: 50%;
+  padding-left: 60px;
+  width: 80%;
+}
+
+.sous-titre-intro {
+  font-size: 27px;
+  padding-top: 70px;
+}
+
+#intro-second-text .text {
+  font-size: 16px;
+}
+
+/* Fin de partie intro front page */
+
+/* Partie milieu front page */
+
+#middle-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+#all-text-tissus {
+  width: 50%;
+  margin-left: 200px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#grey-div {
+  background-color: #f6f6f6;
+  width: 500px;
+  height: 500px;
+  margin-bottom: -500px;
+}
+
+/* Fin partie milieu front page */
+
+/* Partie bottom front page */
+
+.image-tissus {
+  width: 100%;
+}
+
+#tissus-container {
+  display: flex;
+  align-items: center;
+}
+
+.sous-titre-tissus {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+#article-bottom-right {
+  margin: 15px;
+}
+
+.text-tissus {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a:hover {
+  color: black;
+}
+
+#tissus-container {
+  margin-bottom: 100px;
+}
+/* Fin de la partie bottom front page */
+
+/* Fin de la partie front page -----------------------------------------------------------------------------------------*/
